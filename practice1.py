@@ -14,54 +14,12 @@
 # 2 Напишите программу для проверки истинности утверждения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z
 # для всех значений предикат.
 print('Проверка истинности выражения ¬(X ⋁ Y ⋁ Z) = ¬X ⋀ ¬Y ⋀ ¬Z')
-x, y, z = 0, 0, 0
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
-
-x, y, z = 0, 0, 1
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
-
-x, y, z = 0, 1, 0
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
-
-x, y, z = 0, 1, 1
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
-
-x, y, z = 1, 0, 0
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
-
-x, y, z = 1, 0, 1
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
-
-x, y, z = 1, 1, 1
-print(x, y, z, end='    ')
-if (-(x or y or z)) == (-x and -y and -z):
-    print('Истинно')
-else:
-    print('Ложно')
+print('x\ty\tz')
+for x in range(2):
+    for y in range(2):
+        for z in range (2):
+            res = not(x or y or z) == (not(x) and not(y) and not(z))
+            print(f'{x}\t{y}\t{z}\t{res}')
 
 # 3 Напишите программу, которая принимает на вход координаты точки (X и Y), причём X ≠ 0 и Y ≠ 0
 # и выдаёт номер четверти плоскости, в которой находится эта точка (или на какой оси она находится).
