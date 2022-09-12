@@ -78,9 +78,8 @@ n = len(line) - len(findline)
 count = 0
 i = 0
 while i <= n:
-    if line[0] == findline[0]:
-        if findline in line:
-            count += 1
+    if line[0:3] == findline:
+        count += 1
     line = line[1:]
     i += 1
 print(count)
