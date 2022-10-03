@@ -1,0 +1,43 @@
+”спеваемость: 4.3
+
+—редн€€ успеваемость учеников 1ј: 4.0
+0: Azarova Elena - 4.3
+2: Lavrov Andrey - 4.3
+3: Makarova Ekaterina - 4.5
+4: Nestruev Mikhail - 2.8
+
+—редн€€ успеваемость учеников 1B: 4.5
+1: Vlasov Roman - 3.8
+5: Romashina Svetlana - 5
+6: Chepalova Yulia - 4.7
+7: new new - 4.7
+
+—редн€€ успеваемость учеников по русскому €зыку: 4.2
+Azarova Elena 4 
+Vlasov Roman 3.6 
+Lavrov Andrey 4.4 
+Makarova Ekaterina 4.3 
+Nestruev Mikhail 2.5 
+Romashina Svetlana 5 
+Chepalova Yulia 4.8 
+new new 5 
+
+—редн€€ успеваемость учеников по математике: 4.2
+Azarova Elena 4.6 
+Vlasov Roman 4 
+Lavrov Andrey 4.2 
+Makarova Ekaterina 4.5 
+Nestruev Mikhail 2.5 
+Romashina Svetlana 5 
+Chepalova Yulia 4.8 
+new new 4 
+
+—редн€€ успеваемость учеников по физкультуре: 4.3
+Azarova Elena 4.2 
+Vlasov Roman 3.8 
+Lavrov Andrey 4.2 
+Makarova Ekaterina 4.8 
+Nestruev Mikhail 3.3 
+Romashina Svetlana 5 
+Chepalova Yulia 4.4 
+new new 5 
