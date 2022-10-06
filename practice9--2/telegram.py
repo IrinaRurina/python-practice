@@ -2,7 +2,7 @@ import telebot
 import transform_num
 import model_math
 
-bot = telebot.TeleBot('5632601232:AAGLe-p-bSYPlyyxPEapG9_RU6VYiDS85c4')
+bot = telebot.TeleBot('xxx')
 
 buttons1 = telebot.types.ReplyKeyboardMarkup(resize_keyboard=True)
 buttons1.row(telebot.types.KeyboardButton('Комплексные'),
