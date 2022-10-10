@@ -1,5 +1,5 @@
 import model_math
-import log
+import mylog
 import transform_num
 import view
 
